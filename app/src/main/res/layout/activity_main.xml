@@ -1,0 +1,66 @@
+<!--
+  Copyright (c) 2015 Naver Corp.
+  @Author Oh kyun Kim, Byung Woong Kwon, Jong Hun Kim
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#292929"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <com.naver.android.view.rotatableview.view.RotatableImageButton
+            android:id="@+id/ratio_button"
+            android:layout_width="41dp"
+            android:layout_height="54.5dp"
+            android:src="@drawable/camera_selector_rate34_button"
+            android:background="@drawable/camera_selector_rate_background"/>
+
+        <com.naver.android.view.rotatableview.view.RotatableImageView
+            android:id="@+id/flash_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/cam_flash_on"
+            android:layout_marginLeft="20dp"/>
+
+        <com.naver.android.view.rotatableview.view.RotatableTextView
+            android:id="@+id/hello_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/hello"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"/>
+
+        <com.naver.android.view.rotatableview.view.RotatableButton
+            android:id="@+id/rotatable_button_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:text="button"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
