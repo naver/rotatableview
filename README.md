@@ -12,8 +12,8 @@ RotatableView is being used by [aillis(LineCamera)](https://play.google.com/stor
 ## Installation
 [Android Studio](http://developer.android.com/sdk/index.html)  
 Android SDK 21  
-Android SDK Build-tools 21.1.2
-(You can change other sdk and build-tools)
+Android SDK Build-tools 21.1.2  
+(You can change other sdk and build-tools)  
 
 
 ## Usage
