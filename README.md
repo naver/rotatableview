@@ -22,7 +22,7 @@ RotatableView is going to provide from maven repository.(Not supported yet)
 
 ## License
 RotatableView is licensed under the Apache License, Version 2.0.
-See [LICENSE](LICENSE) for full license text.
+See [LICENSE](LICENSE.txt) for full license text.
 
         Copyright (c) 2015 Naver Corp.
         @Author Oh kyun Kim, Byung Woong Kwon, Jong Hun Kim
