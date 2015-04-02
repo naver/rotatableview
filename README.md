@@ -17,8 +17,26 @@ Android SDK Build-tools 21.1.2
 
 
 ## Usage
-RotatableView is going to provide from maven repository.(Not supported yet)
+##### Maven
+<pre>
+&lt;dependency&gt;
+    &lt;groupId&gt;com.naver.android&lt;/groupId&gt;
+    &lt;artifactId&gt;rotatableview&lt;/artifactId&gt;
+    &lt;version&gt;1.0.0&lt;/version&gt;
+&lt;/dependency&gt;
+</pre>
+  
 
+##### Gradle
+<pre>
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.naver.android:rotatableview:1.0.0'
+}
+</pre>
 
 ## License
 RotatableView is licensed under the Apache License, Version 2.0.
