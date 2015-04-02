@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2015 Naver Corp.
- * @Author Oh kyun Kim, Byung Woong Kwon, Jong Hun Kim
+ * @Author Ohkyun Kim, Byungwoong Kwon, Jonghun Kim
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
