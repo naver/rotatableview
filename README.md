@@ -25,7 +25,6 @@ Android SDK Build-tools 21.1.2
     &lt;version&gt;1.0.0&lt;/version&gt;
 &lt;/dependency&gt;
 </pre>
-  
 
 ##### Gradle
 <pre>
@@ -37,6 +36,11 @@ dependencies {
     compile 'com.naver.android:rotatableview:1.0.0'
 }
 </pre>
+
+## Demo
+[APK](https://raw.githubusercontent.com/naver/rotatableview/master/apk/app-release.apk)
+
+![qrcode](doc/img/apk_qrcode.png)
 
 ## License
 RotatableView is licensed under the Apache License, Version 2.0.
